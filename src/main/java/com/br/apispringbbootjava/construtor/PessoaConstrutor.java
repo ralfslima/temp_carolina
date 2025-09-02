@@ -25,7 +25,7 @@ public class PessoaConstrutor implements RepresentationModelAssembler<PessoaMode
         );
     }
     
-    // Novo método toModel
+    // Método criado para que PessoaController consiga executar corretamente
     public EntityModel<PessoaModel> toModel(PessoaModeloDTO pessoaDTO) {
         // Mapeia o DTO para o modelo real
         PessoaModel pessoaModel = new PessoaModel(
